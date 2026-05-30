@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <div id="progress"></div>
+
+  <video autoplay loop muted plays-inline class="back-vid">
+    <source src="images/galaxy.mp4" type="video/mp4">
+  </video>
+  <section class="main-section" id="sobreMI">
+    <nav>
+      <h1 data-aos="zoom-in" data-aos-duration="1000"><span style="color: #4acfee;">Rama</span>Coder00</h1>
+      <ul>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a class="active" href="#sobreMI">Sobre
+            mi</a>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#habilidades">Habilidades</a></li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#form">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-info">
+        <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">Hola, soy De Rogatis Ramiro
+
+        </h1>
+        <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">Desarrolador</h2>
+        <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000">Soy estudiante de Ingeniería Informática
+          con orientación a la programación y experiencia en soporte técnico. Me apasiona el desarrollo web y la
+          resolución de problemas tecnológicos, combinando conocimientos académicos con práctica profesional.</p>
+        <div class="Buttons">
+        <a class="btn" data-aos="zoom-in-right" data-aos-duration="1000"
+   data-aos-delay="1100" href="#form">Contrátame</a>
+
+          <ul class="ul-icons">
+            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200"><i
+                  class='bx bxl-github'></i></a></li>
+            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"><i
+                  class='bx bxl-instagram'></i></a></li>
+            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400"><i
+                  class='bx bxl-whatsapp'></i></a></li>
+            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"><i
+                  class='bx bxl-facebook-circle'></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
+        <img src="images/man1.png" alt="person-img">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="tech-stack" id="habilidades">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Tech Stack</h2>
+    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      Lo que uso para construir proyectos digitales
+    </p>
+
+    <div class="stack-container">
+      <!-- Core Tech -->
+      <div class="stack-group" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+        <h3>Core Tech</h3>
+        <ul>
+          <li><i class='bx bxl-c-plus-plus'></i> C</li>
+          <li><i class='bx bxl-python'></i> Python</li>
+          <li><i class='bx bxl-html5'></i> HTML / CSS</li>
+          <li><i class='bx bxl-javascript'></i> JavaScript</li>
+        </ul>
+      </div>
+
+      <!-- Databases -->
+      <div class="stack-group" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+        <h3>Databases</h3>
+        <ul>
+          <li><i class='bx bxs-data'></i> SQL</li>
+        </ul>
+      </div>
+
+      <!-- Tools & Workflow -->
+      <div class="stack-group" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
+        <h3>Tools & Workflow</h3>
+        <ul>
+          <li><i class='bx bxl-visual-studio'></i> Visual Studio Code</li>
+          <li><i class='bx bxl-github'></i> GitHub</li>
+          <li><i class='bx bxs-file-doc'></i> Paquete Office</li </ul>
+      </div>
+    </div>
+  </section>
+  <!--Seccion -->
+  <section class="form" id="form">
+    <h2 class="form_title" data-aos="fade-up" data-aos-duration="1000">Contacto</h2>
+
+    <form class="form__form" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+      <div class="form__row">
+        <div class="form__input" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+          <label>Nombre
+            <input type="text" placeholder="John">
+          </label>
+        </div>
+        <div class="form__input" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+          <label>Apellido
+            <input type="text" placeholder="Doe">
+          </label>
+        </div>
+      </div>
+
+      <div class="form__input">
+        <label>E-mail
+          <input type="email" placeholder="mail@example.com">
+        </label>
+      </div>
+      <div class="form__input">
+        <label> Mensaje
+          <textarea placeholder="your message">
+                    </textarea>
+        </label>
+      </div>
+
+      <div class="form__input">
+        <input type="submit">
+      </div>
+
+
+    </form>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="codigo.js"></script>
+
+</body>
+
+</html>

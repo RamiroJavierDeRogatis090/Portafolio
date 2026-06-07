@@ -39,18 +39,18 @@
           con orientación a la programación y experiencia en soporte técnico. Me apasiona el desarrollo web y la
           resolución de problemas tecnológicos, combinando conocimientos académicos con práctica profesional.</p>
         <div class="Buttons">
-        <a class="btn" data-aos="zoom-in-right" data-aos-duration="1000"
-   data-aos-delay="1100" href="#form">Contrátame</a>
+          <a class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100"
+            href="#form">Contrátame</a>
+          <a class="btn" href="cv/RamiroDeRogatisCV.pdf" download>Descargar CV</a>
 
           <ul class="ul-icons">
-            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200"><i
+            <li><a href="https://github.com/RamiroJavierDeRogatis090" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200"><i
                   class='bx bxl-github'></i></a></li>
-            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"><i
+            <li><a href="https://www.instagram.com/rami_derro31/" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"><i
                   class='bx bxl-instagram'></i></a></li>
-            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400"><i
+            <li><a href="https://walink.co/9wcy4d" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400"><i
                   class='bx bxl-whatsapp'></i></a></li>
-            <li><a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"><i
-                  class='bx bxl-facebook-circle'></i></a></li>
+           
           </ul>
         </div>
       </div>
@@ -102,39 +102,38 @@
   <section class="form" id="form">
     <h2 class="form_title" data-aos="fade-up" data-aos-duration="1000">Contacto</h2>
 
-    <form class="form__form" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+    <form action="https://formspree.io/f/mwvjlpwl" method="POST" class="form__form" data-aos="zoom-in"
+      data-aos-duration="1000" data-aos-delay="200">
       <div class="form__row">
         <div class="form__input" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
           <label>Nombre
-            <input type="text" placeholder="John">
+            <input type="text" name="nombre" placeholder="John" required>
           </label>
         </div>
         <div class="form__input" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
           <label>Apellido
-            <input type="text" placeholder="Doe">
+            <input type="text" name="apellido" placeholder="Doe" required>
           </label>
         </div>
       </div>
 
       <div class="form__input">
         <label>E-mail
-          <input type="email" placeholder="mail@example.com">
+          <input type="email" name="email" placeholder="mail@example.com" required>
         </label>
       </div>
       <div class="form__input">
-        <label> Mensaje
-          <textarea placeholder="your message">
-                    </textarea>
+        <label>Mensaje
+          <textarea name="mensaje" placeholder="your message" required></textarea>
         </label>
       </div>
 
       <div class="form__input">
-        <input type="submit">
+<input type="submit" value="Enviar">
       </div>
-
-
     </form>
   </section>
+
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
